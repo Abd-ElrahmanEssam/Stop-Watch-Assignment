@@ -93,7 +93,7 @@ button
     {
         background-image: url('image.png');
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: cover;
     }
 
     #outer
@@ -105,12 +105,18 @@ button
     #timer
     {
         font-size: 60px;
+        top: 10%;
+    }
+
+    .btns-container
+    {
+        width: 100%;
     }
 
     button
     {
         margin: 10px 5px;
-        width: 7rem;
+        width: 6rem;
         padding: 0px;
         font-size: 20px;
     }
