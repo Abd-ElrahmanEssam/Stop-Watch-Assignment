@@ -86,3 +86,32 @@ button
     background-color: rgba(128, 255, 0, 0.87);
     color: antiquewhite;
 }
+
+@media (max-width: 575.98px)
+{
+    body
+    {
+        background-image: url('image.png');
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    #outer
+    {
+        width: 300px;
+        height: 100px;
+    }
+
+    #timer
+    {
+        font-size: 60px;
+    }
+
+    button
+    {
+        margin: 10px 5px;
+        width: 7rem;
+        padding: 0px;
+        font-size: 20px;
+    }
+}
