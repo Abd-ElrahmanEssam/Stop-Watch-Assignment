@@ -105,6 +105,7 @@ button
     #timer
     {
         font-size: 60px;
+        bottom: 5%;
     }
 
     .btns-container
