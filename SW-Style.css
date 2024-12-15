@@ -1,0 +1,88 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    align-items: center;
+    text-align: center;
+    background-image: url('image.png');
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1
+{
+    font-size: 70px;
+    margin-top:20px;
+    color: rgb(252, 3, 3);
+}
+
+#outer
+{
+    margin-top: 130px ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 100px;
+    background-color: rgb(18, 99, 190);
+    border: 13px solid rgb(240, 57, 57);
+    border-radius: 1000px;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+#timer
+{
+    position: relative;
+    color: rgb(0, 0, 0);
+    /* left: 17%; */
+    bottom: 23%;
+    font-size: 70px;
+}
+
+.btns-container
+{
+    margin: 0px;
+}
+
+button
+{
+    margin: 10px;
+    color: #fff;
+    width: 9rem;
+    cursor: pointer;
+    /* background: transparent; */
+    /* border: none; */
+    padding: 10px 20px;
+    font-size: 29px;
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#start-button
+{
+    background-color: rgba(107, 107, 185, 0.87);
+    color: sandybrown;
+}
+
+#stop-button
+{
+    background-color: rgba(159, 245, 216, 0.87);
+    color: rgb(165, 131, 45);
+}
+
+#reset-button
+{
+    background-color: rgba(128, 255, 0, 0.87);
+    color: antiquewhite;
+}
